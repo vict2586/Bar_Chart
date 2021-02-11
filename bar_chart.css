@@ -1,12 +1,17 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
+body {
+  background-color: black;
+}
+
+#bars {
+  display: flex;
+  align-items: flex-end;
 }
 
 .bar {
   flex-grow: 1;
-  border: 1px solid salmon;
-  background-color: rgb(250, 149, 137);
+  border: 1px solid gray;
+  background-color: lightgray;
   margin-left: 1px;
-  height: 100%;
+  width: 10%;
+  margin-top: 29%;
 }
